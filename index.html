@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>$GORL</title>
+</head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="GORL_files/logo.PNG" alt="logo">
+        </div>
+        <ul class="menu">
+            <li><a href="https://twitter.com/woomanonsol">
+                    <img class="socials twitter" src="GORL_files/twitter.svg" alt="twitter">
+                </a></li>
+            <li><a href="https://t.me/woomansportal">
+                    <img class="socials telegram" src="GORL_files/telegram.svg" alt="Telegram">
+                </a></li>
+            <li><a href="#roadmapsection">
+                    <img class="socials roadmap" src="GORL_files/roadmap.svg" alt="Roadmap">
+                </a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <div class="hero">
+                <div class="hero-img">
+                    <img src="GORL_files/heroo.png" alt="Hero Image">
+                </div>
+                <div class="buttons">
+                    <a href="https://twitter.com/woomanonsol"><img class="btn-1" src="GORL_files/btn-follow-us.png" alt="Button Follow Us"></a>
+                    <a href="https://t.me/woomansportal"><img class="btn-2" src="GORL_files/btn-telegram.png" alt="Telegram"></a>
+                </div>
+                <p class="ca">CA:......................................................</p>
+                <div id="targetDiv" class="meme-temp">
+                    <img src="GORL_files/meme-temp.png" alt="meme-temp">
+                    <textarea name="upwardBox" id="upwardBox" class="box1" placeholder="Your Text Here"
+                        readonly></textarea>
+                </div>
+                <div class="memetext">
+                    <img class="mem-txt-box" src="GORL_files/box.png" alt="">
+                    <textarea name="downwardBox" id="downwardBox" class="box2" placeholder="Enter meme text"></textarea>
+                </div>
+                <div class="save-meme">
+                    <button onclick="takeScreenshot()"><img class="save-meme-img" src="GORL_files/btn-save-meme.png"
+                            alt="save-meme"></button>
+                    <a id="downloadLink" style="display: none;"></a>
+                </div>
+                <img class="br br-1" src="GORL_files/line-divide.png" alt="line-divide">
+            </div>
+        </section>
+        <section>
+            <div class="how-to-buy">
+                <div class="bpics">
+                    <div class="bimg">
+                        <img class="bimgg bimg1" src="GORL_files/b1.png" alt="b1">
+                    </div>
+                    <div class="bimg">
+                        <img class="bimgg bimg2" src="GORL_files/b2.png" alt="b1">
+                    </div>
+                    <div class="bimg">
+                        <img class="bimgg bimg3" src="GORL_files/b3.png" alt="b1">
+                    </div>
+                </div>
+                <div class="steps">
+                    <img src="GORL_files/steps.PNG" alt="steps" class="steps-img">
+                    <div class="buy-text-div">
+                        <p class="buy-text">Switch SOL for $GORL. We have Zero taxes so you don't need to worry about
+                            buying with a specific slippage, although you may</p>
+                    </div>
+                    <img class="br br-1" src="GORL_files/line-divide.png" alt="line-divide">
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="game">
+                <div class="gt1">Generate $GORL</div>
+                <div class="gt2">Get your wooman</div>
+
+                <img class="game-gen-img" src="GORL_files/game-gen-img.png" alt="game-image">
+                <div class="launch">
+                    <a href="women generator/index2.html"><img class="launch-btn" src="GORL_files/launch_game.png" alt="launch_game"></a>
+                </div>
+                <div style="display: grid;"><img class="br br-1" src="GORL_files/line-divide.png" alt="line-divide">
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="slogan">
+                <img src="GORL_files/slogan.png" alt="slogan" class="slogan-img">
+            </div>
+            <div style="display: grid;"><img class="br br-1" src="GORL_files/line-divide.png" alt="line-divide"></div>
+            </div>
+        </section>
+        <section id="roadmapsection"> 
+            <div class="roadmapsec">
+                <img class="roadmap-img" src="GORL_files/roadmappp.PNG" alt="RoadMap">
+                <div style="display: grid;"><img class="br br-1" src="GORL_files/line-divide.png" alt="line-divide">
+                </div>
+            </div>
+            </div>
+        </section>
+        <section>
+            <div class="info">
+                <img src="GORL_files/banner.png" alt="info" class="info-img">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="foot-icon">
+            <img src="GORL_files/footer icon.png" alt="footer-icon" class="foot-img">
+        </div>
+        <div class="desclimer">
+            <p class="dt desclimer-text1">DESCLIMER</p>
+            <p class="dt desclimer-text2">$GORL is a memecoin and has no utility. Don't risk money you are afraid of
+                losing.</p>
+            <p class="dt desclimer-text3">The price may go up or it may go down. We are not responsible for the price of
+                the</p>
+            <p class="dt desclimer-text4">token. We are not associated with X or Twitter.</p>
+            <a href="https://linktr.ee/Novanexventures" class="designer">
+                <p class="designert">Designed by NOVANEX</p>
+            </a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
